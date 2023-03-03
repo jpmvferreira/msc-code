@@ -1,4 +1,4 @@
-## Abstract
+## About
 This repository includes all of the code which was developed during my master's thesis.
 
 For the thesis itself and its corresponding source code visit the repository [jpmvferreira/msc-thesis](https://github.com/jpmvferreira/msc-thesis).
