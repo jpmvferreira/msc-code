@@ -1,0 +1,192 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   0% (103/40000)
+Sampling:   1% (202/40000)
+Sampling:   1% (301/40000)
+Sampling:   1% (400/40000)
+Sampling:   1% (500/40000)
+Sampling:   2% (600/40000)
+Sampling:   2% (700/40000)
+Sampling:   2% (800/40000)
+Sampling:   2% (1000/40000)
+Sampling:   3% (1100/40000)
+Sampling:   4% (1400/40000)
+Sampling:   4% (1600/40000)
+Sampling:   4% (1700/40000)
+Sampling:   5% (1900/40000)
+Sampling:   6% (2200/40000)
+Sampling:   6% (2500/40000)
+Sampling:   7% (2900/40000)
+Sampling:   8% (3300/40000)
+Sampling:   9% (3500/40000)
+Sampling:   9% (3700/40000)
+Sampling:  10% (3900/40000)
+Sampling:  10% (4200/40000)
+Sampling:  12% (4600/40000)
+Sampling:  13% (5100/40000)
+Sampling:  15% (5900/40000)
+Sampling:  16% (6500/40000)
+Sampling:  18% (7300/40000)
+Sampling:  20% (8200/40000)
+Sampling:  22% (8700/40000)
+Sampling:  23% (9300/40000)
+Sampling:  24% (9700/40000)
+Sampling:  25% (10000/40000)
+Sampling:  26% (10400/40000)
+Sampling:  27% (10900/40000)
+Sampling:  28% (11300/40000)
+Sampling:  29% (11600/40000)
+Sampling:  30% (12000/40000)
+Sampling:  31% (12300/40000)
+Sampling:  32% (12600/40000)
+Sampling:  32% (12900/40000)
+Sampling:  33% (13100/40000)
+Sampling:  33% (13300/40000)
+Sampling:  34% (13600/40000)
+Sampling:  35% (13900/40000)
+Sampling:  36% (14200/40000)
+Sampling:  36% (14600/40000)
+Sampling:  37% (14900/40000)
+Sampling:  38% (15200/40000)
+Sampling:  39% (15500/40000)
+Sampling:  39% (15700/40000)
+Sampling:  40% (16000/40000)
+Sampling:  40% (16200/40000)
+Sampling:  41% (16400/40000)
+Sampling:  42% (16700/40000)
+Sampling:  42% (16900/40000)
+Sampling:  43% (17200/40000)
+Sampling:  44% (17500/40000)
+Sampling:  44% (17700/40000)
+Sampling:  45% (18000/40000)
+Sampling:  46% (18300/40000)
+Sampling:  46% (18600/40000)
+Sampling:  47% (18900/40000)
+Sampling:  48% (19200/40000)
+Sampling:  48% (19400/40000)
+Sampling:  49% (19600/40000)
+Sampling:  50% (19900/40000)
+Sampling:  50% (20100/40000)
+Sampling:  51% (20300/40000)
+Sampling:  51% (20500/40000)
+Sampling:  52% (20800/40000)
+Sampling:  52% (21000/40000)
+Sampling:  53% (21200/40000)
+Sampling:  54% (21500/40000)
+Sampling:  54% (21700/40000)
+Sampling:  55% (22100/40000)
+Sampling:  56% (22400/40000)
+Sampling:  57% (22700/40000)
+Sampling:  58% (23000/40000)
+Sampling:  58% (23300/40000)
+Sampling:  59% (23700/40000)
+Sampling:  60% (24000/40000)
+Sampling:  61% (24400/40000)
+Sampling:  62% (24700/40000)
+Sampling:  62% (25000/40000)
+Sampling:  63% (25300/40000)
+Sampling:  64% (25600/40000)
+Sampling:  64% (25800/40000)
+Sampling:  65% (26000/40000)
+Sampling:  66% (26300/40000)
+Sampling:  66% (26600/40000)
+Sampling:  67% (26900/40000)
+Sampling:  68% (27100/40000)
+Sampling:  68% (27300/40000)
+Sampling:  69% (27500/40000)
+Sampling:  70% (27800/40000)
+Sampling:  70% (28100/40000)
+Sampling:  71% (28400/40000)
+Sampling:  72% (28800/40000)
+Sampling:  73% (29100/40000)
+Sampling:  74% (29400/40000)
+Sampling:  74% (29700/40000)
+Sampling:  75% (30000/40000)
+Sampling:  76% (30300/40000)
+Sampling:  76% (30500/40000)
+Sampling:  77% (30800/40000)
+Sampling:  78% (31100/40000)
+Sampling:  78% (31400/40000)
+Sampling:  79% (31700/40000)
+Sampling:  80% (32000/40000)
+Sampling:  81% (32300/40000)
+Sampling:  82% (32600/40000)
+Sampling:  82% (32900/40000)
+Sampling:  83% (33100/40000)
+Sampling:  83% (33300/40000)
+Sampling:  84% (33500/40000)
+Sampling:  84% (33800/40000)
+Sampling:  85% (34100/40000)
+Sampling:  86% (34400/40000)
+Sampling:  87% (34700/40000)
+Sampling:  87% (34900/40000)
+Sampling:  88% (35200/40000)
+Sampling:  89% (35500/40000)
+Sampling:  90% (35800/40000)
+Sampling:  90% (36100/40000)
+Sampling:  91% (36400/40000)
+Sampling:  92% (36700/40000)
+Sampling:  92% (37000/40000)
+Sampling:  93% (37300/40000)
+Sampling:  94% (37700/40000)
+Sampling:  95% (38000/40000)
+Sampling:  96% (38300/40000)
+Sampling:  96% (38600/40000)
+Sampling:  97% (38800/40000)
+Sampling:  98% (39000/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  98% (39400/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.001104 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 11.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.001118 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 11.18 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.001159 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 11.59 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.001173 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 11.73 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

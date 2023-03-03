@@ -1,0 +1,106 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/24000)
+Sampling:   0% (2/24000)
+Sampling:   0% (3/24000)
+Sampling:   0% (4/24000)
+Sampling:   0% (103/24000)
+Sampling:   1% (202/24000)
+Sampling:   2% (401/24000)
+Sampling:   2% (500/24000)
+Sampling:   3% (700/24000)
+Sampling:   4% (900/24000)
+Sampling:   5% (1100/24000)
+Sampling:   6% (1400/24000)
+Sampling:   7% (1600/24000)
+Sampling:   8% (2000/24000)
+Sampling:  10% (2400/24000)
+Sampling:  12% (2800/24000)
+Sampling:  13% (3200/24000)
+Sampling:  15% (3500/24000)
+Sampling:  16% (3800/24000)
+Sampling:  18% (4400/24000)
+Sampling:  21% (5000/24000)
+Sampling:  24% (5700/24000)
+Sampling:  27% (6500/24000)
+Sampling:  29% (7000/24000)
+Sampling:  32% (7600/24000)
+Sampling:  34% (8200/24000)
+Sampling:  36% (8600/24000)
+Sampling:  39% (9300/24000)
+Sampling:  41% (9800/24000)
+Sampling:  43% (10400/24000)
+Sampling:  46% (11000/24000)
+Sampling:  48% (11500/24000)
+Sampling:  50% (12000/24000)
+Sampling:  52% (12600/24000)
+Sampling:  55% (13100/24000)
+Sampling:  57% (13700/24000)
+Sampling:  60% (14300/24000)
+Sampling:  63% (15100/24000)
+Sampling:  66% (15800/24000)
+Sampling:  68% (16400/24000)
+Sampling:  71% (17100/24000)
+Sampling:  74% (17700/24000)
+Sampling:  76% (18200/24000)
+Sampling:  78% (18800/24000)
+Sampling:  80% (19200/24000)
+Sampling:  82% (19600/24000)
+Sampling:  85% (20300/24000)
+Sampling:  88% (21000/24000)
+Sampling:  90% (21700/24000)
+Sampling:  93% (22400/24000)
+Sampling:  95% (22700/24000)
+Sampling:  95% (22900/24000)
+Sampling:  96% (23000/24000)
+Sampling:  96% (23100/24000)
+Sampling:  97% (23200/24000)
+Sampling:  97% (23300/24000)
+Sampling:  98% (23400/24000)
+Sampling:  98% (23500/24000)
+Sampling:  98% (23600/24000)
+Sampling:  99% (23700/24000)
+Sampling:  99% (23800/24000)
+Sampling: 100% (23900/24000)
+Sampling: 100% (24000/24000)
+Sampling: 100% (24000/24000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000847 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.47 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000868 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.68 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000879 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.79 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000974 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.74 seconds.
+  Adjust your expectations accordingly!
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1048: RuntimeWarning: overflow encountered in exp
+  weights = 1 / np.exp(len_scale - len_scale[:, None]).sum(axis=1)
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:811: UserWarning: Estimated shape parameter of Pareto distribution is greater than 0.7 for one or more samples. You should consider using a more robust model, this is because importance sampling is less likely to work well if the marginal posterior and LOO posterior are very different. This is more likely to happen with a non-robust model and highly influential observations.
+  warnings.warn(
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting routines
+
+[*] Saving to output folder

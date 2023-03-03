@@ -1,0 +1,7 @@
+Computed from 10000 by 1000 log-likelihood matrix
+
+          Estimate       SE
+elpd_waic -1650.56    35.88
+p_waic        2.34        -
+
+There has been a warning during the calculation. Please check the results.

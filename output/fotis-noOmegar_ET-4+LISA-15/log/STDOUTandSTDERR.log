@@ -1,0 +1,11 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+Traceback (most recent call last):
+  File "/home/joseferreira/.micromamba/envs/fotis-r/bin/smc-stan", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/home/joseferreira/simplifiedmc/bin/smc-stan", line 188, in <module>
+    main(args)
+  File "/home/joseferreira/simplifiedmc/bin/smc-stan", line 32, in main
+    raise Exception(f"Output folder '{output}' is not empty. Overwrite existing files with the -ow, --overwrite flag or pick a different output folder.")
+Exception: Output folder 'output/fotis-noOmegar_ET-4+LISA-15' is not empty. Overwrite existing files with the -ow, --overwrite flag or pick a different output folder.

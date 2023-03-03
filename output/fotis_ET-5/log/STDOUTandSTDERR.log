@@ -1,0 +1,478 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_jtnn29mt/model_fx6xd7hj.stan', line 92, column 19: Argument
+    0.021 suggests there may be parameters that are not unit scale; consider
+    rescaling with a multiplier (see manual section 22.12).
+Warning in '/tmp/httpstan_jtnn29mt/model_fx6xd7hj.stan', line 77, column 6: The
+    variable residual may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/14000)
+Sampling:   0% (2/14000)
+Sampling:   0% (3/14000)
+Sampling:   0% (4/14000)
+Sampling:   1% (103/14000)
+Sampling:   1% (202/14000)
+Sampling:   2% (301/14000)
+Sampling:   3% (401/14000)
+Sampling:   4% (501/14000)
+Sampling:   4% (601/14000)
+Sampling:   5% (701/14000)
+Sampling:   6% (801/14000)
+Sampling:   6% (901/14000)
+Sampling:   7% (1001/14000)
+Sampling:   8% (1101/14000)
+Sampling:   9% (1201/14000)
+Sampling:   9% (1301/14000)
+Sampling:  10% (1401/14000)
+Sampling:  11% (1501/14000)
+Sampling:  11% (1601/14000)
+Sampling:  12% (1701/14000)
+Sampling:  13% (1801/14000)
+Sampling:  14% (1901/14000)
+Sampling:  14% (2001/14000)
+Sampling:  15% (2101/14000)
+Sampling:  16% (2201/14000)
+Sampling:  16% (2301/14000)
+Sampling:  17% (2401/14000)
+Sampling:  18% (2502/14000)
+Sampling:  19% (2603/14000)
+Sampling:  19% (2702/14000)
+Sampling:  20% (2801/14000)
+Sampling:  21% (2901/14000)
+Sampling:  21% (3001/14000)
+Sampling:  22% (3101/14000)
+Sampling:  23% (3201/14000)
+Sampling:  24% (3301/14000)
+Sampling:  24% (3401/14000)
+Sampling:  25% (3501/14000)
+Sampling:  26% (3601/14000)
+Sampling:  26% (3701/14000)
+Sampling:  27% (3801/14000)
+Sampling:  28% (3901/14000)
+Sampling:  29% (4001/14000)
+Sampling:  29% (4101/14000)
+Sampling:  30% (4201/14000)
+Sampling:  31% (4301/14000)
+Sampling:  31% (4401/14000)
+Sampling:  32% (4501/14000)
+Sampling:  33% (4601/14000)
+Sampling:  34% (4701/14000)
+Sampling:  34% (4801/14000)
+Sampling:  35% (4901/14000)
+Sampling:  36% (5001/14000)
+Sampling:  36% (5101/14000)
+Sampling:  37% (5201/14000)
+Sampling:  38% (5301/14000)
+Sampling:  39% (5401/14000)
+Sampling:  39% (5501/14000)
+Sampling:  40% (5601/14000)
+Sampling:  41% (5701/14000)
+Sampling:  41% (5801/14000)
+Sampling:  42% (5901/14000)
+Sampling:  43% (6001/14000)
+Sampling:  44% (6101/14000)
+Sampling:  44% (6201/14000)
+Sampling:  45% (6301/14000)
+Sampling:  46% (6401/14000)
+Sampling:  46% (6501/14000)
+Sampling:  47% (6601/14000)
+Sampling:  48% (6701/14000)
+Sampling:  49% (6801/14000)
+Sampling:  49% (6901/14000)
+Sampling:  50% (7001/14000)
+Sampling:  51% (7101/14000)
+Sampling:  51% (7201/14000)
+Sampling:  52% (7301/14000)
+Sampling:  53% (7401/14000)
+Sampling:  54% (7501/14000)
+Sampling:  54% (7601/14000)
+Sampling:  55% (7701/14000)
+Sampling:  56% (7801/14000)
+Sampling:  56% (7901/14000)
+Sampling:  57% (8001/14000)
+Sampling:  57% (8002/14000)
+Sampling:  58% (8101/14000)
+Sampling:  59% (8201/14000)
+Sampling:  59% (8301/14000)
+Sampling:  60% (8401/14000)
+Sampling:  61% (8501/14000)
+Sampling:  61% (8601/14000)
+Sampling:  62% (8701/14000)
+Sampling:  63% (8801/14000)
+Sampling:  64% (8901/14000)
+Sampling:  64% (9001/14000)
+Sampling:  65% (9101/14000)
+Sampling:  66% (9201/14000)
+Sampling:  66% (9301/14000)
+Sampling:  67% (9401/14000)
+Sampling:  68% (9501/14000)
+Sampling:  69% (9601/14000)
+Sampling:  69% (9701/14000)
+Sampling:  70% (9801/14000)
+Sampling:  71% (9901/14000)
+Sampling:  71% (10001/14000)
+Sampling:  72% (10101/14000)
+Sampling:  73% (10201/14000)
+Sampling:  74% (10301/14000)
+Sampling:  74% (10401/14000)
+Sampling:  75% (10501/14000)
+Sampling:  76% (10600/14000)
+Sampling:  76% (10700/14000)
+Sampling:  77% (10800/14000)
+Sampling:  78% (10900/14000)
+Sampling:  79% (11000/14000)
+Sampling:  79% (11100/14000)
+Sampling:  80% (11200/14000)
+Sampling:  81% (11300/14000)
+Sampling:  81% (11400/14000)
+Sampling:  82% (11500/14000)
+Sampling:  82% (11501/14000)
+Sampling:  83% (11600/14000)
+Sampling:  84% (11700/14000)
+Sampling:  84% (11800/14000)
+Sampling:  85% (11900/14000)
+Sampling:  86% (12000/14000)
+Sampling:  86% (12100/14000)
+Sampling:  87% (12200/14000)
+Sampling:  88% (12300/14000)
+Sampling:  89% (12400/14000)
+Sampling:  89% (12500/14000)
+Sampling:  90% (12600/14000)
+Sampling:  91% (12700/14000)
+Sampling:  91% (12800/14000)
+Sampling:  92% (12900/14000)
+Sampling:  93% (13000/14000)
+Sampling:  94% (13100/14000)
+Sampling:  94% (13200/14000)
+Sampling:  95% (13300/14000)
+Sampling:  96% (13400/14000)
+Sampling:  96% (13500/14000)
+Sampling:  97% (13600/14000)
+Sampling:  98% (13700/14000)
+Sampling:  99% (13800/14000)
+Sampling:  99% (13900/14000)
+Sampling: 100% (14000/14000)
+Sampling: 100% (14000/14000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.003097 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 30.97 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[131] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[189] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[179] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[181] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[526] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[802] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[756] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[886] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[479] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[947] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[658] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[469] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[810] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[969] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.003145 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 31.45 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -0.36787944117147614. (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 61, column 2 to column 65)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -0.36787944117147614. (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 61, column 2 to column 65)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: IDASolve(mem, ts[i], &t1, yy, yp, IDA_NORMAL) failed with error flag -1: 
+The solver took mxstep internal steps but could not reach tout. (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: IDASolve(mem, ts[i], &t1, yy, yp, IDA_NORMAL) failed with error flag -1: 
+The solver took mxstep internal steps but could not reach tout. (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: IDASolve(mem, ts[i], &t1, yy, yp, IDA_NORMAL) failed with error flag -1: 
+The solver took mxstep internal steps but could not reach tout. (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[784] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[537] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[971] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[7] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[764] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[892] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[628] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[618] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[940] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[850] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[834] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[23] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.003029 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 30.29 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[128] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[183] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[871] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[831] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[819] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[871] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[500] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[756] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[762] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[887] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[499] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[606] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: IDASolve(mem, ts[i], &t1, yy, yp, IDA_NORMAL) failed with error flag -1: 
+The solver took mxstep internal steps but could not reach tout. (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[717] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[622] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[514] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.003273 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 32.73 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[2] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[245] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 77, column 2 to column 87)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[500] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[787] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[91] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[736] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[910] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[427] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[584] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[899] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[548] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[471] is -nan, but must be finite! (in '/tmp/httpstan_oj7lwc_g/model_fx6xd7hj.stan', line 95, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/diagnostics.py:586: RuntimeWarning: invalid value encountered in double_scalars
+  (between_chain_variance / within_chain_variance + num_samples - 1) / (num_samples)
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1048: RuntimeWarning: overflow encountered in exp
+  weights = 1 / np.exp(len_scale - len_scale[:, None]).sum(axis=1)
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:811: UserWarning: Estimated shape parameter of Pareto distribution is greater than 0.7 for one or more samples. You should consider using a more robust model, this is because importance sampling is less likely to work well if the marginal posterior and LOO posterior are very different. This is more likely to happen with a non-robust model and highly influential observations.
+  warnings.warn(
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting routines
+
+[*] Saving to output folder

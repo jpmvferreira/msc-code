@@ -1,0 +1,5 @@
+Computed from 10000 posterior samples and 40 observations log-likelihood matrix.
+
+          Estimate       SE
+elpd_waic   -25.83     6.22
+p_waic        0.92        -

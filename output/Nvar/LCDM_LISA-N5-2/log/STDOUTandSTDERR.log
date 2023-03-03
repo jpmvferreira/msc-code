@@ -1,0 +1,89 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   1% (203/40000)
+Sampling:   1% (302/40000)
+Sampling:   2% (601/40000)
+Sampling:   2% (1000/40000)
+Sampling:   4% (1800/40000)
+Sampling:   7% (2700/40000)
+Sampling:  10% (4200/40000)
+Sampling:  15% (5900/40000)
+Sampling:  19% (7600/40000)
+Sampling:  24% (9400/40000)
+Sampling:  29% (11500/40000)
+Sampling:  34% (13400/40000)
+Sampling:  38% (15000/40000)
+Sampling:  43% (17200/40000)
+Sampling:  48% (19000/40000)
+Sampling:  52% (20600/40000)
+Sampling:  56% (22300/40000)
+Sampling:  60% (24200/40000)
+Sampling:  65% (25900/40000)
+Sampling:  69% (27700/40000)
+Sampling:  74% (29700/40000)
+Sampling:  79% (31500/40000)
+Sampling:  84% (33500/40000)
+Sampling:  88% (35400/40000)
+Sampling:  92% (36700/40000)
+Sampling:  95% (38000/40000)
+Sampling:  96% (38600/40000)
+Sampling:  98% (39000/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  98% (39400/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000341 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.41 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000327 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.27 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000326 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.26 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000322 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.22 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:811: UserWarning: Estimated shape parameter of Pareto distribution is greater than 0.7 for one or more samples. You should consider using a more robust model, this is because importance sampling is less likely to work well if the marginal posterior and LOO posterior are very different. This is more likely to happen with a non-robust model and highly influential observations.
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

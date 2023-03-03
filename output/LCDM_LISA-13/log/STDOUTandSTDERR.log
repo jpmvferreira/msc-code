@@ -1,0 +1,108 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/24000)
+Sampling:   0% (2/24000)
+Sampling:   0% (3/24000)
+Sampling:   0% (4/24000)
+Sampling:   0% (103/24000)
+Sampling:   1% (202/24000)
+Sampling:   1% (301/24000)
+Sampling:   2% (500/24000)
+Sampling:   3% (700/24000)
+Sampling:   5% (1100/24000)
+Sampling:   7% (1600/24000)
+Sampling:  10% (2300/24000)
+Sampling:  13% (3100/24000)
+Sampling:  16% (3900/24000)
+Sampling:  20% (4700/24000)
+Sampling:  24% (5801/24000)
+Sampling:  28% (6801/24000)
+Sampling:  33% (7801/24000)
+Sampling:  37% (8801/24000)
+Sampling:  39% (9400/24000)
+Sampling:  42% (10000/24000)
+Sampling:  44% (10600/24000)
+Sampling:  46% (11100/24000)
+Sampling:  48% (11600/24000)
+Sampling:  50% (12100/24000)
+Sampling:  52% (12500/24000)
+Sampling:  54% (12900/24000)
+Sampling:  56% (13400/24000)
+Sampling:  58% (14000/24000)
+Sampling:  61% (14700/24000)
+Sampling:  64% (15400/24000)
+Sampling:  67% (16000/24000)
+Sampling:  69% (16500/24000)
+Sampling:  71% (17000/24000)
+Sampling:  74% (17700/24000)
+Sampling:  76% (18300/24000)
+Sampling:  79% (18900/24000)
+Sampling:  81% (19400/24000)
+Sampling:  82% (19800/24000)
+Sampling:  84% (20200/24000)
+Sampling:  86% (20700/24000)
+Sampling:  89% (21400/24000)
+Sampling:  92% (22000/24000)
+Sampling:  94% (22600/24000)
+Sampling:  97% (23200/24000)
+Sampling:  98% (23500/24000)
+Sampling:  99% (23800/24000)
+Sampling: 100% (23900/24000)
+Sampling: 100% (24000/24000)
+Sampling: 100% (24000/24000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000932 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.32 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000953 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.53 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000964 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.64 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000998 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.98 seconds.
+  Adjust your expectations accordingly!
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1048: RuntimeWarning: overflow encountered in exp
+  weights = 1 / np.exp(len_scale - len_scale[:, None]).sum(axis=1)
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:811: UserWarning: Estimated shape parameter of Pareto distribution is greater than 0.7 for one or more samples. You should consider using a more robust model, this is because importance sampling is less likely to work well if the marginal posterior and LOO posterior are very different. This is more likely to happen with a non-robust model and highly influential observations.
+  warnings.warn(
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting routines
+
+[*] Saving to output folder

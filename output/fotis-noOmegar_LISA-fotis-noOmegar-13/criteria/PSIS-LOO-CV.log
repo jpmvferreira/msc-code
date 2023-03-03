@@ -1,0 +1,18 @@
+Computed from 30000 by 15 log-likelihood matrix
+
+         Estimate       SE
+elpd_loo   -29.46     4.62
+p_loo        1.61        -
+
+There has been a warning during the calculation. Please check the results.
+------
+
+Pareto k diagnostic values:
+                         Count   Pct.
+(-Inf, 0.5]   (good)       14   93.3%
+ (0.5, 0.7]   (ok)          0    0.0%
+   (0.7, 1]   (bad)         1    6.7%
+   (1, Inf)   (very bad)    0    0.0%
+
+Pareto k data for each observation (ordered):
+[0.7091442066448873, 0.16178195536819498, 0.13765611049277693, 0.18722076683512157, 0.17111247925375675, 0.11881035787074753, 0.11379282289219751, 0.1309196892266715, 0.20265866078587766, 0.08104313112177894, 0.1890330676465639, 0.04560087393531796, 0.13913021265526496, 0.17051444215842293, 0.125910511078257]

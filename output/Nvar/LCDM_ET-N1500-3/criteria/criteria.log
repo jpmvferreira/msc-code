@@ -1,0 +1,8 @@
+## criteria.log
+# model selection criteria
+
+PSIS-LOO-CV: -2403.221351754015 ± 46.35789124693259
+WAIC: -2403.2203868019387 ± 46.357941721008615
+AIC: Not calculated
+BIC: Not calculated
+DIC: Not calculated

@@ -1,0 +1,38 @@
+name: msc
+channels:
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- gcc=12.1.0=h9ea6d83_10
+- libgcc-devel_linux-64=12.1.0=h1ec3361_16
+- binutils_impl_linux-64=2.36.1=h193b22a_2
+- python=3.10.6=ha86cf86_0_cpython
+- ncurses=6.3=h27087fc_1
+- libsanitizer=12.1.0=ha89aaad_16
+- libstdcxx-devel_linux-64=12.1.0=h1ec3361_16
+- gxx=12.1.0=h9ea6d83_10
+- pip=22.2.2=pyhd8ed1ab_0
+- libzlib=1.2.12=h166bdaf_2
+- libgcc-ng=12.1.0=h8d9b700_16
+- openssl=3.0.5=h166bdaf_1
+- readline=8.1.2=h0f457ee_0
+- libgomp=12.1.0=h8d9b700_16
+- ld_impl_linux-64=2.36.1=hea4e1c9_2
+- gcc_impl_linux-64=12.1.0=hea43390_16
+- libuuid=2.32.1=h7f98852_1000
+- wheel=0.37.1=pyhd8ed1ab_0
+- libsqlite=3.39.3=h753d276_0
+- sysroot_linux-64=2.12=he073ed8_15
+- libstdcxx-ng=12.1.0=ha89aaad_16
+- libnsl=2.0.0=h7f98852_0
+- libffi=3.4.2=h7f98852_5
+- xz=5.2.6=h166bdaf_0
+- setuptools=65.3.0=pyhd8ed1ab_1
+- tzdata=2022c=h191b570_0
+- _libgcc_mutex=0.1=conda_forge
+- kernel-headers_linux-64=2.6.32=he073ed8_15
+- bzip2=1.0.8=h7f98852_4
+- _openmp_mutex=4.5=2_gnu
+- ca-certificates=2022.6.15=ha878542_0
+- gxx_impl_linux-64=12.1.0=hea43390_16
+- tk=8.6.12=h27826a3_0
+

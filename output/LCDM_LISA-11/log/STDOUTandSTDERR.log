@@ -1,0 +1,127 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/24000)
+Sampling:   0% (2/24000)
+Sampling:   0% (3/24000)
+Sampling:   0% (4/24000)
+Sampling:   0% (103/24000)
+Sampling:   1% (202/24000)
+Sampling:   1% (301/24000)
+Sampling:   2% (500/24000)
+Sampling:   3% (800/24000)
+Sampling:   5% (1100/24000)
+Sampling:   6% (1500/24000)
+Sampling:   8% (1800/24000)
+Sampling:   9% (2200/24000)
+Sampling:  10% (2500/24000)
+Sampling:  12% (2800/24000)
+Sampling:  13% (3200/24000)
+Sampling:  14% (3400/24000)
+Sampling:  15% (3700/24000)
+Sampling:  17% (4100/24000)
+Sampling:  19% (4500/24000)
+Sampling:  21% (5100/24000)
+Sampling:  25% (5900/24000)
+Sampling:  28% (6600/24000)
+Sampling:  30% (7200/24000)
+Sampling:  32% (7700/24000)
+Sampling:  33% (8000/24000)
+Sampling:  35% (8300/24000)
+Sampling:  37% (8800/24000)
+Sampling:  38% (9100/24000)
+Sampling:  40% (9500/24000)
+Sampling:  41% (9900/24000)
+Sampling:  43% (10300/24000)
+Sampling:  45% (10700/24000)
+Sampling:  47% (11300/24000)
+Sampling:  49% (11800/24000)
+Sampling:  51% (12300/24000)
+Sampling:  53% (12700/24000)
+Sampling:  55% (13200/24000)
+Sampling:  57% (13700/24000)
+Sampling:  60% (14300/24000)
+Sampling:  62% (14800/24000)
+Sampling:  64% (15400/24000)
+Sampling:  66% (15900/24000)
+Sampling:  68% (16400/24000)
+Sampling:  70% (16700/24000)
+Sampling:  71% (17100/24000)
+Sampling:  73% (17500/24000)
+Sampling:  75% (17900/24000)
+Sampling:  76% (18200/24000)
+Sampling:  78% (18600/24000)
+Sampling:  79% (19000/24000)
+Sampling:  81% (19400/24000)
+Sampling:  82% (19800/24000)
+Sampling:  85% (20300/24000)
+Sampling:  87% (20800/24000)
+Sampling:  89% (21400/24000)
+Sampling:  91% (21800/24000)
+Sampling:  93% (22300/24000)
+Sampling:  94% (22600/24000)
+Sampling:  95% (22800/24000)
+Sampling:  95% (22900/24000)
+Sampling:  96% (23000/24000)
+Sampling:  96% (23100/24000)
+Sampling:  97% (23200/24000)
+Sampling:  97% (23300/24000)
+Sampling:  98% (23400/24000)
+Sampling:  98% (23500/24000)
+Sampling:  98% (23600/24000)
+Sampling:  99% (23700/24000)
+Sampling:  99% (23800/24000)
+Sampling: 100% (23900/24000)
+Sampling: 100% (24000/24000)
+Sampling: 100% (24000/24000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000814 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.14 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000809 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.09 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.00083 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.3 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000863 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.63 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1048: RuntimeWarning: overflow encountered in exp
+  weights = 1 / np.exp(len_scale - len_scale[:, None]).sum(axis=1)
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:811: UserWarning: Estimated shape parameter of Pareto distribution is greater than 0.7 for one or more samples. You should consider using a more robust model, this is because importance sampling is less likely to work well if the marginal posterior and LOO posterior are very different. This is more likely to happen with a non-robust model and highly influential observations.
+  warnings.warn(
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting routines
+
+[*] Saving to output folder

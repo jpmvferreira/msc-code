@@ -1,0 +1,114 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   0% (103/40000)
+Sampling:   1% (303/40000)
+Sampling:   2% (602/40000)
+Sampling:   2% (901/40000)
+Sampling:   3% (1300/40000)
+Sampling:   4% (1800/40000)
+Sampling:   6% (2400/40000)
+Sampling:   8% (3100/40000)
+Sampling:  10% (4000/40000)
+Sampling:  14% (5400/40000)
+Sampling:  18% (7100/40000)
+Sampling:  22% (8900/40000)
+Sampling:  26% (10400/40000)
+Sampling:  31% (12300/40000)
+Sampling:  34% (13800/40000)
+Sampling:  39% (15700/40000)
+Sampling:  44% (17400/40000)
+Sampling:  49% (19700/40000)
+Sampling:  53% (21300/40000)
+Sampling:  60% (23900/40000)
+Sampling:  64% (25400/40000)
+Sampling:  68% (27200/40000)
+Sampling:  72% (28900/40000)
+Sampling:  78% (31100/40000)
+Sampling:  82% (32600/40000)
+Sampling:  86% (34200/40000)
+Sampling:  88% (35100/40000)
+Sampling:  89% (35600/40000)
+Sampling:  90% (35900/40000)
+Sampling:  90% (36100/40000)
+Sampling:  90% (36200/40000)
+Sampling:  91% (36300/40000)
+Sampling:  91% (36400/40000)
+Sampling:  91% (36500/40000)
+Sampling:  92% (36600/40000)
+Sampling:  92% (36700/40000)
+Sampling:  92% (36800/40000)
+Sampling:  92% (36900/40000)
+Sampling:  92% (37000/40000)
+Sampling:  93% (37100/40000)
+Sampling:  93% (37200/40000)
+Sampling:  93% (37300/40000)
+Sampling:  94% (37400/40000)
+Sampling:  94% (37500/40000)
+Sampling:  94% (37600/40000)
+Sampling:  94% (37700/40000)
+Sampling:  94% (37800/40000)
+Sampling:  95% (37900/40000)
+Sampling:  95% (38000/40000)
+Sampling:  95% (38100/40000)
+Sampling:  96% (38200/40000)
+Sampling:  96% (38300/40000)
+Sampling:  96% (38400/40000)
+Sampling:  96% (38500/40000)
+Sampling:  96% (38600/40000)
+Sampling:  97% (38700/40000)
+Sampling:  97% (38800/40000)
+Sampling:  97% (38900/40000)
+Sampling:  98% (39000/40000)
+Sampling:  98% (39100/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  98% (39400/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000342 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.42 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000354 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.54 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000388 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.88 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000383 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.83 seconds.
+  Adjust your expectations accordingly!
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

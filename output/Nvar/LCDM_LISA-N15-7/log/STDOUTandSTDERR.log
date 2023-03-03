@@ -1,0 +1,150 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   0% (103/40000)
+Sampling:   1% (202/40000)
+Sampling:   1% (301/40000)
+Sampling:   1% (400/40000)
+Sampling:   2% (600/40000)
+Sampling:   2% (800/40000)
+Sampling:   3% (1100/40000)
+Sampling:   4% (1500/40000)
+Sampling:   5% (2100/40000)
+Sampling:   7% (2700/40000)
+Sampling:   8% (3200/40000)
+Sampling:  10% (4000/40000)
+Sampling:  12% (4700/40000)
+Sampling:  14% (5600/40000)
+Sampling:  16% (6600/40000)
+Sampling:  19% (7500/40000)
+Sampling:  21% (8300/40000)
+Sampling:  23% (9100/40000)
+Sampling:  24% (9800/40000)
+Sampling:  26% (10400/40000)
+Sampling:  27% (10900/40000)
+Sampling:  28% (11400/40000)
+Sampling:  30% (11900/40000)
+Sampling:  31% (12300/40000)
+Sampling:  32% (12600/40000)
+Sampling:  32% (12900/40000)
+Sampling:  33% (13200/40000)
+Sampling:  34% (13600/40000)
+Sampling:  35% (14000/40000)
+Sampling:  36% (14500/40000)
+Sampling:  38% (15100/40000)
+Sampling:  39% (15700/40000)
+Sampling:  40% (16200/40000)
+Sampling:  42% (16700/40000)
+Sampling:  43% (17100/40000)
+Sampling:  44% (17600/40000)
+Sampling:  45% (18100/40000)
+Sampling:  46% (18600/40000)
+Sampling:  48% (19100/40000)
+Sampling:  49% (19700/40000)
+Sampling:  50% (20200/40000)
+Sampling:  52% (20800/40000)
+Sampling:  53% (21300/40000)
+Sampling:  54% (21700/40000)
+Sampling:  56% (22200/40000)
+Sampling:  56% (22600/40000)
+Sampling:  58% (23100/40000)
+Sampling:  59% (23700/40000)
+Sampling:  60% (24100/40000)
+Sampling:  61% (24500/40000)
+Sampling:  62% (24900/40000)
+Sampling:  63% (25300/40000)
+Sampling:  64% (25600/40000)
+Sampling:  65% (26000/40000)
+Sampling:  66% (26400/40000)
+Sampling:  67% (26800/40000)
+Sampling:  68% (27200/40000)
+Sampling:  69% (27600/40000)
+Sampling:  70% (28100/40000)
+Sampling:  71% (28500/40000)
+Sampling:  72% (29000/40000)
+Sampling:  74% (29500/40000)
+Sampling:  75% (29900/40000)
+Sampling:  76% (30500/40000)
+Sampling:  77% (30900/40000)
+Sampling:  79% (31500/40000)
+Sampling:  80% (32000/40000)
+Sampling:  81% (32500/40000)
+Sampling:  82% (32900/40000)
+Sampling:  84% (33400/40000)
+Sampling:  85% (34000/40000)
+Sampling:  86% (34500/40000)
+Sampling:  88% (35100/40000)
+Sampling:  89% (35600/40000)
+Sampling:  90% (36000/40000)
+Sampling:  92% (36600/40000)
+Sampling:  93% (37100/40000)
+Sampling:  94% (37600/40000)
+Sampling:  95% (38100/40000)
+Sampling:  96% (38400/40000)
+Sampling:  96% (38500/40000)
+Sampling:  96% (38600/40000)
+Sampling:  97% (38700/40000)
+Sampling:  97% (38800/40000)
+Sampling:  97% (38900/40000)
+Sampling:  98% (39000/40000)
+Sampling:  98% (39100/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  98% (39400/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000849 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.49 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000803 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.03 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000849 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.49 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000909 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.09 seconds.
+  Adjust your expectations accordingly!
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

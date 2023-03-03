@@ -1,0 +1,168 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   0% (103/40000)
+Sampling:   1% (202/40000)
+Sampling:   1% (302/40000)
+Sampling:   1% (501/40000)
+Sampling:   2% (700/40000)
+Sampling:   2% (1000/40000)
+Sampling:   4% (1400/40000)
+Sampling:   4% (1800/40000)
+Sampling:   6% (2300/40000)
+Sampling:   7% (2700/40000)
+Sampling:   8% (3000/40000)
+Sampling:   8% (3300/40000)
+Sampling:   9% (3700/40000)
+Sampling:  10% (4200/40000)
+Sampling:  12% (4900/40000)
+Sampling:  14% (5500/40000)
+Sampling:  15% (6100/40000)
+Sampling:  17% (6800/40000)
+Sampling:  19% (7500/40000)
+Sampling:  21% (8300/40000)
+Sampling:  22% (9000/40000)
+Sampling:  24% (9600/40000)
+Sampling:  25% (10100/40000)
+Sampling:  26% (10600/40000)
+Sampling:  28% (11000/40000)
+Sampling:  28% (11400/40000)
+Sampling:  30% (11800/40000)
+Sampling:  30% (12200/40000)
+Sampling:  32% (12600/40000)
+Sampling:  32% (13000/40000)
+Sampling:  33% (13300/40000)
+Sampling:  34% (13700/40000)
+Sampling:  35% (14000/40000)
+Sampling:  36% (14300/40000)
+Sampling:  37% (14800/40000)
+Sampling:  38% (15200/40000)
+Sampling:  39% (15600/40000)
+Sampling:  40% (16200/40000)
+Sampling:  42% (16600/40000)
+Sampling:  43% (17200/40000)
+Sampling:  44% (17800/40000)
+Sampling:  46% (18200/40000)
+Sampling:  47% (18700/40000)
+Sampling:  48% (19000/40000)
+Sampling:  48% (19300/40000)
+Sampling:  49% (19600/40000)
+Sampling:  50% (19900/40000)
+Sampling:  51% (20400/40000)
+Sampling:  52% (20900/40000)
+Sampling:  54% (21400/40000)
+Sampling:  55% (22000/40000)
+Sampling:  56% (22500/40000)
+Sampling:  57% (22900/40000)
+Sampling:  59% (23500/40000)
+Sampling:  60% (24000/40000)
+Sampling:  62% (24600/40000)
+Sampling:  63% (25100/40000)
+Sampling:  64% (25400/40000)
+Sampling:  64% (25600/40000)
+Sampling:  65% (25900/40000)
+Sampling:  66% (26300/40000)
+Sampling:  67% (26700/40000)
+Sampling:  68% (27200/40000)
+Sampling:  69% (27700/40000)
+Sampling:  70% (28100/40000)
+Sampling:  72% (28600/40000)
+Sampling:  73% (29200/40000)
+Sampling:  74% (29800/40000)
+Sampling:  76% (30400/40000)
+Sampling:  78% (31000/40000)
+Sampling:  78% (31400/40000)
+Sampling:  80% (31900/40000)
+Sampling:  81% (32400/40000)
+Sampling:  82% (32700/40000)
+Sampling:  83% (33100/40000)
+Sampling:  84% (33500/40000)
+Sampling:  84% (33800/40000)
+Sampling:  86% (34200/40000)
+Sampling:  86% (34600/40000)
+Sampling:  88% (35000/40000)
+Sampling:  89% (35500/40000)
+Sampling:  90% (36000/40000)
+Sampling:  91% (36500/40000)
+Sampling:  92% (37000/40000)
+Sampling:  94% (37400/40000)
+Sampling:  94% (37800/40000)
+Sampling:  95% (38100/40000)
+Sampling:  96% (38400/40000)
+Sampling:  96% (38600/40000)
+Sampling:  97% (38700/40000)
+Sampling:  97% (38800/40000)
+Sampling:  97% (38900/40000)
+Sampling:  98% (39000/40000)
+Sampling:  98% (39100/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  98% (39400/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.00091 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 9.1 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000803 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.03 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_7l02mu3g/model_7emjtsti.stan', line 63, column 2 to column 42)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.000839 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.39 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000889 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 8.89 seconds.
+  Adjust your expectations accordingly!
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

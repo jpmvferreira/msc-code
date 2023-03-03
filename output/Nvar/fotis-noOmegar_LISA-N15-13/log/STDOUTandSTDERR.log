@@ -1,0 +1,456 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_ax5ozkq4/model_jpxf672h.stan', line 76, column 6: The
+    variable residual may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   0% (103/40000)
+Sampling:   1% (202/40000)
+Sampling:   1% (301/40000)
+Sampling:   1% (400/40000)
+Sampling:   1% (500/40000)
+Sampling:   2% (600/40000)
+Sampling:   2% (700/40000)
+Sampling:   2% (800/40000)
+Sampling:   2% (900/40000)
+Sampling:   2% (1000/40000)
+Sampling:   3% (1100/40000)
+Sampling:   3% (1200/40000)
+Sampling:   3% (1300/40000)
+Sampling:   4% (1400/40000)
+Sampling:   4% (1500/40000)
+Sampling:   4% (1600/40000)
+Sampling:   4% (1700/40000)
+Sampling:   4% (1800/40000)
+Sampling:   5% (1900/40000)
+Sampling:   5% (2100/40000)
+Sampling:   6% (2300/40000)
+Sampling:   6% (2500/40000)
+Sampling:   7% (2700/40000)
+Sampling:   7% (2800/40000)
+Sampling:   8% (3000/40000)
+Sampling:   8% (3100/40000)
+Sampling:   8% (3200/40000)
+Sampling:   8% (3400/40000)
+Sampling:   9% (3500/40000)
+Sampling:   9% (3700/40000)
+Sampling:  10% (3900/40000)
+Sampling:  10% (4000/40000)
+Sampling:  10% (4200/40000)
+Sampling:  11% (4300/40000)
+Sampling:  11% (4500/40000)
+Sampling:  12% (4800/40000)
+Sampling:  12% (5000/40000)
+Sampling:  13% (5300/40000)
+Sampling:  14% (5600/40000)
+Sampling:  14% (5800/40000)
+Sampling:  16% (6200/40000)
+Sampling:  16% (6500/40000)
+Sampling:  17% (6800/40000)
+Sampling:  18% (7100/40000)
+Sampling:  18% (7400/40000)
+Sampling:  19% (7700/40000)
+Sampling:  20% (8000/40000)
+Sampling:  21% (8300/40000)
+Sampling:  21% (8500/40000)
+Sampling:  22% (8800/40000)
+Sampling:  23% (9100/40000)
+Sampling:  24% (9401/40000)
+Sampling:  24% (9601/40000)
+Sampling:  24% (9701/40000)
+Sampling:  25% (9802/40000)
+Sampling:  25% (9901/40000)
+Sampling:  25% (10101/40000)
+Sampling:  26% (10202/40000)
+Sampling:  26% (10301/40000)
+Sampling:  26% (10401/40000)
+Sampling:  26% (10501/40000)
+Sampling:  27% (10700/40000)
+Sampling:  27% (10800/40000)
+Sampling:  27% (10900/40000)
+Sampling:  28% (11000/40000)
+Sampling:  28% (11100/40000)
+Sampling:  28% (11200/40000)
+Sampling:  28% (11400/40000)
+Sampling:  29% (11600/40000)
+Sampling:  30% (11800/40000)
+Sampling:  30% (11900/40000)
+Sampling:  30% (12000/40000)
+Sampling:  30% (12100/40000)
+Sampling:  30% (12200/40000)
+Sampling:  31% (12300/40000)
+Sampling:  31% (12400/40000)
+Sampling:  31% (12500/40000)
+Sampling:  32% (12600/40000)
+Sampling:  32% (12700/40000)
+Sampling:  32% (12800/40000)
+Sampling:  32% (12900/40000)
+Sampling:  32% (13000/40000)
+Sampling:  33% (13100/40000)
+Sampling:  33% (13200/40000)
+Sampling:  33% (13300/40000)
+Sampling:  34% (13500/40000)
+Sampling:  34% (13600/40000)
+Sampling:  34% (13800/40000)
+Sampling:  35% (13900/40000)
+Sampling:  35% (14000/40000)
+Sampling:  35% (14100/40000)
+Sampling:  36% (14200/40000)
+Sampling:  36% (14300/40000)
+Sampling:  36% (14400/40000)
+Sampling:  36% (14500/40000)
+Sampling:  37% (14700/40000)
+Sampling:  37% (14900/40000)
+Sampling:  38% (15100/40000)
+Sampling:  38% (15300/40000)
+Sampling:  38% (15400/40000)
+Sampling:  39% (15500/40000)
+Sampling:  39% (15600/40000)
+Sampling:  39% (15700/40000)
+Sampling:  40% (15900/40000)
+Sampling:  40% (16000/40000)
+Sampling:  40% (16100/40000)
+Sampling:  40% (16200/40000)
+Sampling:  41% (16300/40000)
+Sampling:  41% (16500/40000)
+Sampling:  42% (16600/40000)
+Sampling:  42% (16700/40000)
+Sampling:  42% (16800/40000)
+Sampling:  42% (16900/40000)
+Sampling:  42% (17000/40000)
+Sampling:  43% (17100/40000)
+Sampling:  43% (17200/40000)
+Sampling:  43% (17300/40000)
+Sampling:  44% (17500/40000)
+Sampling:  44% (17700/40000)
+Sampling:  44% (17800/40000)
+Sampling:  45% (17900/40000)
+Sampling:  45% (18000/40000)
+Sampling:  45% (18100/40000)
+Sampling:  46% (18200/40000)
+Sampling:  46% (18300/40000)
+Sampling:  46% (18400/40000)
+Sampling:  46% (18500/40000)
+Sampling:  46% (18600/40000)
+Sampling:  47% (18700/40000)
+Sampling:  47% (18900/40000)
+Sampling:  48% (19000/40000)
+Sampling:  48% (19100/40000)
+Sampling:  48% (19300/40000)
+Sampling:  48% (19400/40000)
+Sampling:  49% (19600/40000)
+Sampling:  49% (19700/40000)
+Sampling:  50% (19800/40000)
+Sampling:  50% (19900/40000)
+Sampling:  50% (20000/40000)
+Sampling:  50% (20100/40000)
+Sampling:  50% (20200/40000)
+Sampling:  51% (20300/40000)
+Sampling:  51% (20400/40000)
+Sampling:  52% (20600/40000)
+Sampling:  52% (20700/40000)
+Sampling:  52% (20800/40000)
+Sampling:  52% (20900/40000)
+Sampling:  52% (21000/40000)
+Sampling:  53% (21100/40000)
+Sampling:  53% (21200/40000)
+Sampling:  53% (21300/40000)
+Sampling:  54% (21400/40000)
+Sampling:  54% (21600/40000)
+Sampling:  54% (21700/40000)
+Sampling:  55% (21900/40000)
+Sampling:  55% (22000/40000)
+Sampling:  55% (22100/40000)
+Sampling:  56% (22200/40000)
+Sampling:  56% (22300/40000)
+Sampling:  56% (22400/40000)
+Sampling:  56% (22500/40000)
+Sampling:  56% (22600/40000)
+Sampling:  57% (22700/40000)
+Sampling:  57% (22800/40000)
+Sampling:  57% (22900/40000)
+Sampling:  58% (23000/40000)
+Sampling:  58% (23100/40000)
+Sampling:  58% (23200/40000)
+Sampling:  58% (23300/40000)
+Sampling:  58% (23400/40000)
+Sampling:  59% (23500/40000)
+Sampling:  59% (23600/40000)
+Sampling:  60% (23800/40000)
+Sampling:  60% (23900/40000)
+Sampling:  60% (24000/40000)
+Sampling:  60% (24100/40000)
+Sampling:  60% (24200/40000)
+Sampling:  61% (24300/40000)
+Sampling:  61% (24400/40000)
+Sampling:  61% (24500/40000)
+Sampling:  62% (24600/40000)
+Sampling:  62% (24700/40000)
+Sampling:  62% (24800/40000)
+Sampling:  62% (24900/40000)
+Sampling:  62% (25000/40000)
+Sampling:  63% (25100/40000)
+Sampling:  63% (25300/40000)
+Sampling:  64% (25400/40000)
+Sampling:  64% (25600/40000)
+Sampling:  64% (25800/40000)
+Sampling:  65% (25900/40000)
+Sampling:  65% (26000/40000)
+Sampling:  65% (26100/40000)
+Sampling:  66% (26200/40000)
+Sampling:  66% (26300/40000)
+Sampling:  66% (26400/40000)
+Sampling:  66% (26500/40000)
+Sampling:  66% (26600/40000)
+Sampling:  67% (26700/40000)
+Sampling:  67% (26800/40000)
+Sampling:  67% (26900/40000)
+Sampling:  68% (27000/40000)
+Sampling:  68% (27100/40000)
+Sampling:  68% (27200/40000)
+Sampling:  68% (27400/40000)
+Sampling:  69% (27500/40000)
+Sampling:  69% (27600/40000)
+Sampling:  69% (27700/40000)
+Sampling:  70% (27800/40000)
+Sampling:  70% (27900/40000)
+Sampling:  70% (28100/40000)
+Sampling:  71% (28300/40000)
+Sampling:  71% (28400/40000)
+Sampling:  72% (28600/40000)
+Sampling:  72% (28700/40000)
+Sampling:  72% (28800/40000)
+Sampling:  72% (29000/40000)
+Sampling:  73% (29100/40000)
+Sampling:  73% (29200/40000)
+Sampling:  73% (29300/40000)
+Sampling:  74% (29400/40000)
+Sampling:  74% (29500/40000)
+Sampling:  74% (29600/40000)
+Sampling:  74% (29700/40000)
+Sampling:  74% (29800/40000)
+Sampling:  75% (29900/40000)
+Sampling:  75% (30100/40000)
+Sampling:  76% (30200/40000)
+Sampling:  76% (30300/40000)
+Sampling:  76% (30400/40000)
+Sampling:  76% (30500/40000)
+Sampling:  76% (30600/40000)
+Sampling:  77% (30700/40000)
+Sampling:  77% (30800/40000)
+Sampling:  78% (31000/40000)
+Sampling:  78% (31100/40000)
+Sampling:  78% (31200/40000)
+Sampling:  78% (31300/40000)
+Sampling:  78% (31400/40000)
+Sampling:  79% (31500/40000)
+Sampling:  79% (31600/40000)
+Sampling:  80% (31800/40000)
+Sampling:  80% (31900/40000)
+Sampling:  80% (32000/40000)
+Sampling:  80% (32100/40000)
+Sampling:  80% (32200/40000)
+Sampling:  81% (32400/40000)
+Sampling:  81% (32500/40000)
+Sampling:  82% (32600/40000)
+Sampling:  82% (32700/40000)
+Sampling:  82% (32800/40000)
+Sampling:  82% (32900/40000)
+Sampling:  82% (33000/40000)
+Sampling:  83% (33100/40000)
+Sampling:  83% (33200/40000)
+Sampling:  83% (33300/40000)
+Sampling:  84% (33400/40000)
+Sampling:  84% (33500/40000)
+Sampling:  84% (33600/40000)
+Sampling:  84% (33700/40000)
+Sampling:  85% (33900/40000)
+Sampling:  85% (34000/40000)
+Sampling:  85% (34100/40000)
+Sampling:  86% (34200/40000)
+Sampling:  86% (34300/40000)
+Sampling:  86% (34400/40000)
+Sampling:  86% (34500/40000)
+Sampling:  86% (34600/40000)
+Sampling:  87% (34700/40000)
+Sampling:  87% (34800/40000)
+Sampling:  87% (34900/40000)
+Sampling:  88% (35000/40000)
+Sampling:  88% (35100/40000)
+Sampling:  88% (35200/40000)
+Sampling:  88% (35300/40000)
+Sampling:  88% (35400/40000)
+Sampling:  89% (35500/40000)
+Sampling:  89% (35600/40000)
+Sampling:  89% (35700/40000)
+Sampling:  90% (35800/40000)
+Sampling:  90% (35900/40000)
+Sampling:  90% (36000/40000)
+Sampling:  90% (36100/40000)
+Sampling:  90% (36200/40000)
+Sampling:  91% (36300/40000)
+Sampling:  91% (36400/40000)
+Sampling:  91% (36500/40000)
+Sampling:  92% (36600/40000)
+Sampling:  92% (36700/40000)
+Sampling:  92% (36900/40000)
+Sampling:  92% (37000/40000)
+Sampling:  93% (37100/40000)
+Sampling:  93% (37300/40000)
+Sampling:  94% (37400/40000)
+Sampling:  94% (37500/40000)
+Sampling:  94% (37600/40000)
+Sampling:  94% (37700/40000)
+Sampling:  94% (37800/40000)
+Sampling:  95% (37900/40000)
+Sampling:  95% (38000/40000)
+Sampling:  95% (38100/40000)
+Sampling:  96% (38200/40000)
+Sampling:  96% (38300/40000)
+Sampling:  96% (38400/40000)
+Sampling:  96% (38500/40000)
+Sampling:  96% (38600/40000)
+Sampling:  97% (38700/40000)
+Sampling:  97% (38800/40000)
+Sampling:  97% (38900/40000)
+Sampling:  98% (39000/40000)
+Sampling:  98% (39100/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  98% (39400/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.001643 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 16.43 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[5] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 76, column 2 to column 78)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[5] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[5] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[7] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[4] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[4] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.001843 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 18.43 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[4] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[14] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[7] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[6] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.001702 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 17.02 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[3] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[6] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 0.001833 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 18.33 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 76, column 2 to column 78)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[1] is inf, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[6] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Location parameter[6] is -nan, but must be finite! (in '/tmp/httpstan_iqd8smfo/model_jpxf672h.stan', line 93, column 2 to column 43)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/diagnostics.py:586: RuntimeWarning: invalid value encountered in double_scalars
+  (between_chain_variance / within_chain_variance + num_samples - 1) / (num_samples)
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

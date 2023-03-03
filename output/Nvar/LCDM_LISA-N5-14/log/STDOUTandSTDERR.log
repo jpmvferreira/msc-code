@@ -1,0 +1,99 @@
+[*] Fetching arguments
+
+[*] Setting up the output folder
+
+[*] Importing input data
+
+[*] Running the sampler
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning in '/tmp/httpstan_cpvnkhz6/model_7emjtsti.stan', line 51, column 60: The
+    variable integrand may not have been assigned a value before its use.
+Sampling:   0%
+Sampling:   0% (1/40000)
+Sampling:   0% (2/40000)
+Sampling:   0% (3/40000)
+Sampling:   0% (4/40000)
+Sampling:   0% (103/40000)
+Sampling:   1% (202/40000)
+Sampling:   2% (601/40000)
+Sampling:   4% (1400/40000)
+Sampling:   6% (2200/40000)
+Sampling:  11% (4500/40000)
+Sampling:  35% (14100/40000)
+Sampling:  39% (15700/40000)
+Sampling:  62% (24800/40000)
+Sampling:  66% (26400/40000)
+Sampling:  68% (27400/40000)
+Sampling:  71% (28400/40000)
+Sampling:  72% (28900/40000)
+Sampling:  73% (29300/40000)
+Sampling:  75% (30000/40000)
+Sampling:  77% (30800/40000)
+Sampling:  78% (31200/40000)
+Sampling:  78% (31400/40000)
+Sampling:  79% (31600/40000)
+Sampling:  80% (31900/40000)
+Sampling:  81% (32300/40000)
+Sampling:  84% (33600/40000)
+Sampling:  85% (34100/40000)
+Sampling:  88% (35000/40000)
+Sampling:  88% (35300/40000)
+Sampling:  89% (35700/40000)
+Sampling:  90% (36100/40000)
+Sampling:  92% (36800/40000)
+Sampling:  93% (37100/40000)
+Sampling:  93% (37200/40000)
+Sampling:  93% (37300/40000)
+Sampling:  94% (37400/40000)
+Sampling:  94% (37500/40000)
+Sampling:  94% (37600/40000)
+Sampling:  94% (37700/40000)
+Sampling:  94% (37800/40000)
+Sampling:  95% (37900/40000)
+Sampling:  95% (38000/40000)
+Sampling:  95% (38100/40000)
+Sampling:  96% (38200/40000)
+Sampling:  96% (38300/40000)
+Sampling:  96% (38400/40000)
+Sampling:  96% (38500/40000)
+Sampling:  96% (38600/40000)
+Sampling:  97% (38700/40000)
+Sampling:  97% (38800/40000)
+Sampling:  97% (38900/40000)
+Sampling:  98% (39100/40000)
+Sampling:  98% (39200/40000)
+Sampling:  98% (39300/40000)
+Sampling:  99% (39500/40000)
+Sampling:  99% (39600/40000)
+Sampling:  99% (39700/40000)
+Sampling: 100% (39800/40000)
+Sampling: 100% (39900/40000)
+Sampling: 100% (40000/40000)
+Sampling: 100% (40000/40000), done.
+Messages received during sampling:
+  Gradient evaluation took 0.000343 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.43 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000329 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.29 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000338 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.38 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 0.000346 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 3.46 seconds.
+  Adjust your expectations accordingly!
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:811: UserWarning: Estimated shape parameter of Pareto distribution is greater than 0.7 for one or more samples. You should consider using a more robust model, this is because importance sampling is less likely to work well if the marginal posterior and LOO posterior are very different. This is more likely to happen with a non-robust model and highly influential observations.
+  warnings.warn(
+/home/joseferreira/.micromamba/envs/fotis-r/lib/python3.10/site-packages/arviz/stats/stats.py:1635: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
+See http://arxiv.org/abs/1507.04544 for details
+  warnings.warn(
+Removed no burn in
+
+[*] Plotting corner plot and time series
+
+[*] Saving the chain to output folder
+
+[*] Saving other data to output folder

@@ -1,0 +1,39 @@
+## config.yml
+# backup of the configuration arguments used for this run
+
+names:
+- Omega_m
+
+labels:
+- \Omega_m
+
+initial:
+  Omega_m: gauss(0.284, 0.1)
+
+markers:
+  Omega_m: 0.284
+
+samples: 2500
+
+warmup: 1000
+
+chains: 4
+
+PSIS-LOO-CV: true
+
+WAIC: true
+
+AIC: false
+
+BIC: false
+
+DIC: false
+
+overwrite: false
+
+save-chain: true
+
+compress: false
+
+hide-plots: true
+
