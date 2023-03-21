@@ -19,6 +19,15 @@ For the thesis itself and its corresponding source code visit the repository [jp
 └── venv -> virtual environment used throughout the work
 ```
 
+In Chapter 5, the corresponding file to each of the catalogs used are:
+- ET: `data/ET-4.csv`
+- LISA (best): `data/LISA-9`
+- LISA (median): `data/LISA-10`
+- LISA (worst): `data/LISA-12`
+- LIGO (best): `data/LIGO-13`
+- LIGO (median): `data/LIGO-1`
+- LIGO (worst): `data/LIGO-2`
+
 ## External References:
 - The Stan programming language: [mc-stan.org](https://mc-stan.org/)
 - The SimplifiedMC Python package: [jpmvferreira/simplifiedmc](https://github.com/jpmvferreira/simplifiedmc)
